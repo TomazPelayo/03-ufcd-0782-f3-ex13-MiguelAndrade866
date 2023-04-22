@@ -1,3 +1,10 @@
-// Resolva neste ficheiro o seu exercício
+#include <stdio.h>
+int main ()
+{
+    char caractere;
+    caractere = getc(stdin);
+    putc(caractere, stdout);
+    return(0);
+}
 
 
